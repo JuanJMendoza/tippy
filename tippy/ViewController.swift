@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    struct tipDefaults{
+        static let tipDefault = 0.15
+    }
     
     @IBOutlet weak var billField: UITextField!
     
@@ -23,6 +26,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
     }
+    
 
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
@@ -43,6 +47,7 @@ class ViewController: UIViewController {
         // Update the tip and total labels
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+    
     }
 }
 
