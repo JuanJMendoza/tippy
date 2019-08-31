@@ -9,10 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    struct tipDefaults{
-        static let tipDefault = 0.15
-    }
-    
+
     @IBOutlet weak var billField: UITextField!
     
     @IBOutlet weak var totalLabel: UILabel!
@@ -27,7 +24,6 @@ class ViewController: UIViewController {
         
     }
     
-
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
         print("herro")
