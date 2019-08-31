@@ -27,13 +27,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/VSXrukpHhd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Recordit](http://www.recordit.io).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- I had a tough time trying to figure out view navigations, I really look forward to learning more so I can come back to this project and add to it some more.
+
+- I had a hard time trying to figure out where and how I should write the code to set UserDefaults, I'm sure a bit more studying will help me get through this rough patch. I'm looking forward to it.
 
 ## License
 
